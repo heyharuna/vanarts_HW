@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vanarts>
+    <class>
+        <title>Programming Logic</title>
+        <instructor>James Finn</instructor>
+        <day>Monday</day>
+        <hours>2.5</hours>
+        <description>This course provide a foundation for good problem-solving skills focused on web application programming.</description>
+    </class>
+
+    <class>
+        <title>New Web Technology</title>
+        <instructor>James Finn</instructor>
+        <day>Tuesday</day>
+        <hours>3</hours>
+        <description>This course targets introducting new technologies and trends in the web development area.</description>
+    </class>
+
+    <class>
+        <title>php2</title>
+        <instructor>Mustafa Qureshi</instructor>
+        <day>Tuesday</day>
+        <hours>3</hours>
+        <description>This course builds on the material covered in PHP, with emphasis on programming concepts for web applications.</description>
+    </class>
+
+    <class>
+        <title>jQuery and AJAX</title>
+        <instructor>Daniel Brooks</instructor>
+        <day>Wednesday</day>
+        <hours>3</hours>
+        <description>This course builds on the introduction to jQuery and AJAX technologies.</description>
+    </class>
+
+    <class>
+        <title>Project Management 3</title>
+        <instructor>Patrick Sauriol</instructor>
+        <day>Wednesday</day>
+        <hours>2.5</hours>
+        <description>This course give students an advanced understanding of the tools and technologies necessary for project management.</description>
+    </class>
+
+    <class>
+        <title>Interface Planning and Design</title>
+        <instructor>Anne Emberline</instructor>
+        <day>Thursday</day>
+        <hours>3</hours>
+        <description>This course focused on students implementing web design concepts and graphic skills.</description>
+    </class>
+
+    <class>
+        <title>Advanced Typography</title>
+        <instructor>Shuwen Chang</instructor>
+        <day>Thursday</day>
+        <hours>3</hours>
+        <description>This course surveys the development of typographic design from its origin to current trends in digital typography, specifically for use on the web.</description>
+    </class>
+
+    <class>
+        <title>Introduction to Wordpress</title>
+        <instructor>Anne Emberline</instructor>
+        <day>Friday</day>
+        <hours>3</hours>
+        <description>This course give students a basic understanding of the Wordpress system and how to create websites with it.</description>
+    </class>
+
+    <class>
+        <title>UX Design</title>
+        <instructor>Shuwen Chang</instructor>
+        <day>Friday</day>
+        <hours>3</hours>
+        <description>This course introduces the students to user experience design, usability design, and interaction design.</description>
+    </class>
+
+</vanarts>
