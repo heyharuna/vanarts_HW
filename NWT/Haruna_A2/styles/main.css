@@ -1,0 +1,213 @@
+
+.row [class^=col] {
+    margin: 0;
+}
+
+h2, p,a,h3, label {
+    color: hsl(0, 0%, 20%);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ////////////////////////// */
+/*  header section */
+/* ////////////////////////// */
+
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+header div {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+header div img {
+    width: 100%;
+    height: auto;
+}
+
+/* /////////////////////// */
+/* body section */
+/* ///////////////////// */
+
+main {
+    padding-top: 100px;
+}
+.product {
+    height: 300px;
+    padding: 5%;
+    transition: all cubic-bezier(0.45, 0.25, 0.4, 0.88) 400ms;
+    position: relative;
+}
+
+.ng-enter.ng-enter-active, .ng-leave {
+    opacity: 1;
+    top: -50px;
+    height: 0px;
+}
+
+.ng-leave.ng-leave-active, .ng-enter {
+    opacity: 0;
+    top: -100px;
+    height: 10px;
+}
+
+.productImage {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+.productImage img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.productInfo {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.productInfo h2 {
+    margin: 0;
+}
+.addBtn {
+    text-decoration: none;
+    border: solid 2px #191B86;
+    color: #191B86;
+    padding: 2% 3%;
+    font-weight: 600;
+    width: 17%;
+    font-size: 1.2em;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* //////////////////// */
+/* filter section*/
+/* //////////////////// */
+
+.menu {
+    width: 380px;
+    height: 600px;
+    background: #191B86;
+    position: fixed;
+    right: 5%;
+    top: 15%;
+    color: white;
+    padding: 3%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu h2 {
+    margin-top: 0;
+    color: white;
+    border-bottom: 1px solid #D2004B;
+    font-weight: 800;
+}
+
+.search {
+    width: 100%;
+    margin-top: 10%;
+}
+.search label {
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: 1.3em;
+    display: inline-block;
+}
+
+.search select {
+    width: 40%;
+    background: transparent;
+    color: white;
+    border: solid 1px white;
+    height: 30px;
+}
+
+.search input {
+    width: 100%;
+    background: white;
+    color: #191B86;
+    border: none;
+    height: 40px;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.cart h4 {
+    color: white;
+}
+
+#listOfBag {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 8%;
+}
+
+.bagImg {
+    width: 75px;
+    height: 75px;
+    margin: 2%;
+}
+.bagImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detailBtn {
+    text-decoration: none;
+    padding: 0.8em 1.8em;
+    color: white;
+    background: #D2004B;
+    margin-top: 2%;
+    display: none;
+}
+
+.showBtn {
+    display: inline-block;
+}
+
+.sumBag {
+    font-size: 2em;
+    color: white;
+}
+
+.shoppingbagpage {
+    padding-top: 5%;
+}
+
+.shoppingbagpage div h1{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Poppins', sans-serif;
+    background: #191B86;
+    color: white;
+}
+
+.row {
+    width: auto;
+}
+
+.container {
+    width: 85%;
+    max-width: 85rem
+}
+
