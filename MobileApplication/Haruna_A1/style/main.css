@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    box-shadow: 0 0 0 5px #68c0ff inset;
+    margin: 0;
+    padding: 0 7%;
+}
+
+/* header section */
+/* ////////////// */
+.header {
+    width: 100%;
+    height: 9%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    text-align: center;
+    font-family: 'verdana';
+    font-size: 3rem;
+    padding-left: 2rem;
+    display: inline-block;
+}
+
+.header .logo {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 75%;
+    width: auto;
+}
+
+
+/* main section */
+/* ////////////// */
+
+.main {
+    padding-top: 2rem;
+}
+.selectSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    margin-bottom: 5rem;
+}
+
+.selectNation {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+
+.selectNation select{
+    width: 80%;
+    font-size: 2.2rem;
+    padding-left: 1.5rem;
+}
+
+.currency {
+    width: 60%;
+    text-align: right;
+    font-size: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#currency {
+    color: #ff686f;
+    display: inline-block;
+    margin: 0.2rem;
+    padding-left: 2rem;
+}
+
+#result {
+    display: inline-block;
+    margin: 0.2rem;
+    padding-left: 2rem;
+}
+
+/*calcurator style*/
+.cal-btns {
+    display: flex;
+    width: 800px;
+    margin: auto;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+.btn-style {
+    width: 240px;
+    height: 240px;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn-style button {
+    font-size: 4rem;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 4px 4px 9px 1px #dedede;
+}
+.btn-style .result-btn {
+    background: #ff686f;
+}
+#getresult img {
+    padding-top: 0.5rem;
+}
+#delete img {
+    padding-top: 1rem;
+}
