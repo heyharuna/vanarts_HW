@@ -1,1 +1,0 @@
-# vanarts_HW

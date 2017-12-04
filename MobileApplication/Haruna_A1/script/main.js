@@ -43,7 +43,6 @@ $("#select_1").change(function() {
     firstCur = $(this).find(':selected').data('cur');
     $("#unit_1").attr("src", $(this).find(':selected').data('unit'));
     getResult();
-    //console.log(firstCur);
 });
 
 // get second currency
@@ -54,25 +53,41 @@ $("#select_2").change(function() {
     getResult();
 })
 
+ // array for pushing number that user typed in
 var curArr = [];
-var number = '';
+
+// string for changing to number
 var typeNum = '';
 
 $(".num").click(function() {
     if($(this).val() == "d" ) {
-        deleteNum();
+        // if click delete button when #currency section is 0
+        if($("#currency").text() === "0") {
+          alert("Please type number!");
+          $("#currency").text() == "0";
+        }
+        // if click delete button
+        else {
+          deleteNum();
+          typeNum = curArr.join('');
+          $("#currency").text(typeNum);
+          getResult();
+        }
     }
+    // if click some number
     else {
         curArr.push($(this).val());
+        typeNum = curArr.join('');
+        $("#currency").text(typeNum);
     }
-    typeNum = curArr.join('');
-    $("#currency").text(typeNum);
-})
+});
 
+// function of delete number that is end of array
 function deleteNum() {
     curArr.splice(curArr.length - 1);
 }
 
+// number for showing result
 var result;
 
 // get result of currency culculator
@@ -85,13 +100,13 @@ function  getResult() {
         result = parseInt((currencyNum * secondCur) / firstCur);
         $("#result").text(result.toLocaleString());
     }
-    console.log(currencyNum.toLocaleString());
 }
 
 $("#getresult").click(function() {
-    getResult();
     if($("#currency").text() === "0") {
         alert("Please type number!");
-
+    }
+    else {
+      getResult();
     }
 })

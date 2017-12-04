@@ -1,11 +1,14 @@
 body {
     margin: 0;
+    font-family: verdana;
 }
 .container {
-    height: 100vh;
-    box-shadow: 0 0 0 5px #68c0ff inset;
-    margin: 0;
+    height: 100%;
+    box-shadow: 0 0 0 10px #68c0ff inset;
+    background: white;
+    margin: 0 auto;
     padding: 0 7%;
+    width: auto;
 }
 
 /* header section */
@@ -17,6 +20,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
 }
 
 .header h1 {
@@ -30,11 +34,10 @@ body {
 
 .header .logo {
     height: 100%;
-    width: auto;
+    width: 18%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .logo img {
@@ -47,27 +50,33 @@ body {
 /* ////////////// */
 
 .main {
-    padding-top: 2rem;
+    padding-top: 3rem;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 .selectSec {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2rem;
     margin-bottom: 5rem;
+    overflow: hidden;
 }
 
 .selectNation {
     display: flex;
     flex-direction: row;
     width: 40%;
+    position: relative;
+    z-index: 1;
+    background: white;
 }
 
 .selectNation select{
     width: 80%;
     font-size: 2.2rem;
-    padding-left: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 .currency {
@@ -78,6 +87,10 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+}
+
+.calcurator {
+  margin-bottom: 20px;
 }
 
 #currency {
@@ -96,7 +109,7 @@ body {
 /*calcurator style*/
 .cal-btns {
     display: flex;
-    width: 800px;
+    width: 100%;
     margin: auto;
     flex-wrap: wrap;
     max-width: 800px;
