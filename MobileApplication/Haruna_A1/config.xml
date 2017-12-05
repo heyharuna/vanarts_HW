@@ -97,7 +97,7 @@
     <gap:splash src="splash/ios/screen-ipad-portrait.png"           gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="splash/ios/screen-ipad-landscape.png"          gap:platform="ios"     width="1024" height="768" />
 
-    <gap:splash src="splash.png" />
+    <gap:splash src="img/splash.png" />
 
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
